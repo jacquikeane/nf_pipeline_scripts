@@ -78,7 +78,7 @@ ${NEXFLOW_WORKFLOWS_DIR}/roary/roary.nf \
 --tree \
 -w ${WORK_DIR} \
 -with-tower -resume \
--c /home/software/nf_pipeline_scripts/conf/bakersrv1.config,/home/software/nf_pipeline_scripts/conf/pipelines/ghru_roary.config
+-c /home/software/nf_pipeline_scripts/conf/pipelines/ghru_roary.config
 
 # Clean up on sucess/exit 0
 status=$?
