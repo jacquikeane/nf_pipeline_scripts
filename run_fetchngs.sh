@@ -83,8 +83,7 @@ nextflow run ${NEXTFLOW_PIPELINE_DIR}/workflow/main.nf \
 --outdir ${OUT_DIR} \
 -w ${WORK_DIR} \
 -profile singularity \
--with-tower -resume \
--c /home/software/nf_pipeline_scripts/conf/bakersrv1.config
+-with-tower -resume
 
 # Clean up on sucess/exit 0
 status=$?
