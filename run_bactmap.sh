@@ -103,7 +103,7 @@ nextflow run ${NEXTFLOW_PIPELINE_DIR}/workflow/main.nf \
 -w ${WORK_DIR} \
 -profile singularity \
 -with-tower -resume \
--c /home/software/nf_pipeline_scripts/conf/bakersrv1.config,/home/software/nf_pipeline_scripts/conf/pipelines/bactmap.config
+-c /home/software/nf_pipeline_scripts/conf/pipelines/bactmap.config
 
 # Clean up on sucess/exit 0
 status=$?
